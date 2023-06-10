@@ -1,0 +1,203 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Nav bar*/
+header 
+{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5 ease;
+}
+
+header .brands
+{
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation
+{
+    position: relative;
+}
+
+header .navigation-itens a
+{
+    position: relative;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+.img-logo 
+{
+    max-width: 50px;
+}
+
+/*Nav bar - fim-*/
+
+/*home selection*/
+
+.container 
+{
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section 
+{
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+}
+
+section .background-section 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+section .background-section video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section .box img 
+{
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+section .box
+{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0,0,0,0.9) transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+section .box a 
+{
+        display: inline-block;
+        font-size:1em;
+        background: #ffffff;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 900;
+        margin-top:10px;
+        color: #000000;
+        letter-spacing: 2px;
+        transition: 1.0s;
+}
+
+.buttom:hover, .buttom:focus
+{
+        color: rgb(255, 255, 255);
+        background-color:rgb(0, 0, 0);
+}
+
+section .box .conteudo
+{
+    width: 80%;
+}
+
+section .box img 
+{
+    width: 50%;
+    min-width:100px;
+}
+
+section .box p 
+{
+color: #ffffff;    
+font-size: 18px;
+line-height: 30px;
+}
+
+
+/*news*/
+
+
+.container {
+    text-align: center;
+    }
+
+    section .container
+{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    padding: 3%;
+    margin-bottom: 1%;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+section .noticia2 
+{
+    text-align: center;
+}
+
+section .noticia2
+{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.imagem-noticia {
+    width: 769px;
+    height: 431px;
+}
+
+/*form e contato*/
+
+.social-links img
+{
+    height: 24px;
+}
+
+.social-links li
+{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a
+{
+    text-decoration: none;
+}
